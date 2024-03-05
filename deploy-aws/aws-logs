@@ -1,0 +1,53 @@
+ ⏳  Bootstrapping environment aws://420238872087/us-east-2...
+Trusted accounts for deployment: (none)
+Trusted accounts for lookup: (none)
+Using default execution policy of 'arn:aws:iam::aws:policy/AdministratorAccess'. Pass '--cloudformation-execution-policies' to customize.
+
+ ✨ hotswap deployment skipped - no changes were detected (use --force to override)
+
+ ✅  Environment aws://420238872087/us-east-2 bootstrapped (no changes).
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                                                                            !!
+!!  Node 16 has reached end-of-life on 2023-09-11 and is not supported.       !!
+!!  Please upgrade to a supported node version as soon as possible.           !!
+!!                                                                            !!
+!!  This software is currently running on node v16.20.0.                      !!
+!!  As of the current release of this software, supported node releases are:  !!
+!!  - ^20.0.0 (Planned end-of-life: 2026-04-30)                               !!
+!!  - ^18.0.0 (Planned end-of-life: 2025-04-30)                               !!
+!!                                                                            !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+b'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n'
+b'!!                                                                            !!\n'
+b'!!  Node 16 has reached end-of-life on 2023-09-11 and is not supported.       !!\n'
+b'!!  Please upgrade to a supported node version as soon as possible.           !!\n'
+b'!!                                                                            !!\n'
+b'!!  This software is currently running on node v16.20.0.                      !!\n'
+b'!!  As of the current release of this software, supported node releases are:  !!\n'
+b'!!  - ^20.0.0 (Planned end-of-life: 2026-04-30)                               !!\n'
+b'!!  - ^18.0.0 (Planned end-of-life: 2025-04-30)                               !!\n'
+b'!!                                                                            !!\n'
+b'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n'
+
+✨  Synthesis time: 7.61s
+
+FastAPIStack:  start: Building 70bcd0d8d7161c47279cf11d57b00c35c6d35207263c3f48b2049898b50b4565:current_account-current_region
+FastAPIStack:  success: Built 70bcd0d8d7161c47279cf11d57b00c35c6d35207263c3f48b2049898b50b4565:current_account-current_region
+FastAPIStack:  start: Publishing 70bcd0d8d7161c47279cf11d57b00c35c6d35207263c3f48b2049898b50b4565:current_account-current_region
+FastAPIStack:  success: Published 70bcd0d8d7161c47279cf11d57b00c35c6d35207263c3f48b2049898b50b4565:current_account-current_region
+FastAPIStack: deploying... [1/1]
+FastAPIStack: creating CloudFormation changeset...
+
+ ✅  FastAPIStack
+
+✨  Deployment time: 495.07s
+
+Outputs:
+FastAPIStack.FastAPIServiceLoadBalancerDNS3819B8B2 = FastAP-FastA-LwNQPNCUV6mk-1271608237.us-east-2.elb.amazonaws.com
+FastAPIStack.FastAPIServiceServiceURLD15E423E = http://FastAP-FastA-LwNQPNCUV6mk-1271608237.us-east-2.elb.amazonaws.com
+FastAPIStack.LoadBalancerDNS = FastAP-FastA-LwNQPNCUV6mk-1271608237.us-east-2.elb.amazonaws.com
+Stack ARN:
+arn:aws:cloudformation:us-east-2:420238872087:stack/FastAPIStack/9bca9a90-da71-11ee-86c9-0a97604aacb5
+
+✨  Total time: 502.68s

@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fast-mimilm
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: fast-mimilm
+  template:
+    metadata:
+      labels:
+        app: fast-mimilm
+    spec:
+      containers:
+      - name: fast-mimilm
+        image: pacman1994/fast:v1
+        resources:
+          limits:
+            cpu: 2
+            memory: 1500Mi
+          requests:
+            cpu: 500m
+            memory: 100Mi
+        imagePullPolicy: IfNotPresent  # Set to IfNotPresent to pull only if not available locally
+        ports:
+        - containerPort: 8002
