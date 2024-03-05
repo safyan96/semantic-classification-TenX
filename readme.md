@@ -61,4 +61,4 @@ Use locust to simulate a high load on the API.
 pip install locust
 locust -f locustfile.py
 ```
-![img_2.png](img_2.png)
+![img.png](img.png)
